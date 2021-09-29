@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Index
+comment0.text=\r\n\ Interface\ for\ book\ indices.\r\n\r\n\ @author\ Claire\ Liu,\ Renee\ Soika,\ and\ Yuqi\ Wang\r\n\ @version\ November\ 22,\ 2020\r\n
+comment1.params=s\ lineNumber
+comment1.target=boolean\ insert(java.lang.String,\ java.lang.Integer)
+comment1.text=\r\n\ Insert\ an\ instance\ of\ a\ word\ to\ the\ index\r\n\ \r\n\ @param\ \ s\ \ the\ string\ of\ the\ word\r\n\ @param\ \ lineNumber\ \ the\ line\ number\ of\ where\ the\ word\ was\ in\ the\ input\ file\r\n\ \r\n\ @return\ \ true\ if\ insertion\ was\ successful,\ false\ if\ the\ insertion\ was\ not\ successful\ (the\ word\ is\ not\ in\ the\ English\ dictionary)\r\n\ \r\n
+numComments=2

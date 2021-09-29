@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TreeMapIndex
+comment0.text=\r\n\ A\ book\ index\ based\ on\ a\ TreeMap.\r\n\r\n\ @author\ Claire\ Liu,\ Renee\ Soika,\ Yuqi\ Wang\r\n\ @version\ November\ 23,\ 2020\r\n
+comment1.params=dictionary
+comment1.target=TreeMapIndex(java.lang.String[])
+comment1.text=\r\n\ Creates\ a\ new\ book\ index\ based\ on\ a\ TreeMap.\r\n\ @param\ dictionary\ \ \ \ dictionary\ of\ words\ that\ are\ allowed\ in\ the\ index\r\n
+comment2.params=
+comment2.target=java.util.Iterator\ wordIterator()
+comment2.text=\r\n\ Gets\ the\ iterator\ for\ keys\ in\ this\ index.\r\n\ @return\ the\ iterator\ for\ all\ keys\ in\ this\ index\r\n
+numComments=3

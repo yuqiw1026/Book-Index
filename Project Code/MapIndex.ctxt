@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MapIndex
+comment0.text=\r\n\ A\ base\ class\ for\ book\ indices\ based\ on\ maps.\r\n\ @author\ Claire\ Liu,\ Renee\ Soika,\ Yuqi\ Wang\r\n\ @version\ November\ 23,\ 2020\r\n
+comment1.params=wordMap\ dictionary
+comment1.target=MapIndex(java.util.Map,\ java.lang.String[])
+comment1.text=\r\n\ Creates\ a\ new\ book\ index\ based\ on\ a\ map.\r\n\ @param\ wordMap\ \ \ \ \ \ \ map\ to\ use\ to\ store\ the\ index\r\n\ @param\ dictionary\ \ \ \ dictionary\ of\ all\ allowed\ words\ in\ the\ index\r\n
+comment2.params=word\ lineNum
+comment2.target=boolean\ insert(java.lang.String,\ java.lang.Integer)
+comment2.text=\r\n\ Inserts\ a\ new\ line\ number\ for\ a\ word\ into\ this\ book\ index.\r\n\ @param\ word\ \ \ \ \ \ word\ to\ insert\ a\ line\ number\ for\r\n\ @param\ lineNum\ \ \ line\ number\ where\ word\ was\ encountered\r\n\ @return\ whether\ the\ line\ number\ was\ added\ to\ the\ index\ for\ the\ word\r\n
+comment3.params=
+comment3.target=java.util.Iterator\ iterator()
+comment3.text=\r\n\ Gets\ an\ iterator\ for\ this\ index.\r\n\ @return\ an\ iterator\ for\ this\ index\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Creates\ a\ string\ representation\ of\ this\ MapIndex\ (for\ unit\ testing\ only).\r\n\ @return\ \ string\ representation\ of\ this\ MapIndex\r\n
+comment5.params=
+comment5.target=java.util.Set\ wordSet()
+comment5.text=\r\n\ Gets\ the\ set\ of\ the\ words\ in\ this\ index.\r\n\ @return\ the\ set\ of\ words\ in\ this\ index\r\n
+comment6.params=
+comment6.target=java.util.Iterator\ wordIterator()
+comment6.text=\r\n\ Gets\ the\ iterator\ for\ keys\ in\ this\ index.\r\n\ @return\ the\ iterator\ for\ all\ keys\ in\ this\ index\r\n
+comment7.params=word
+comment7.target=boolean\ searchDictionary(java.lang.String)
+comment7.text=\r\n\ Searches\ the\ dictionary\ for\ a\ word.\r\n\ @return\ true\ if\ the\ word\ is\ in\ the\ dictionary,\ false\ if\ not\r\n
+numComments=8

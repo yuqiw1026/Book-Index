@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ListIndex
+comment0.text=\r\n\ ListIndex\ creates\ an\ index\ using\ ArryList\ and\ Entry\ objects.\r\n\r\n\ @author\ Claire\ Liu,\ Renee\ Soika,\ Yuqi\ Wang\r\n\ @version\ November\ 22,\ 2020\r\n
+comment1.params=dictionary
+comment1.target=ListIndex(java.lang.String[])
+comment1.text=\r\n\ Constructor.\ Creates\ a\ new\ ListIndex.\r\n\ @param\ \ dictionary\ \ \ an\ array\ of\ Strings\ of\ words\ in\ a\ dictionary\r\n
+comment2.params=s\ lineNumber
+comment2.target=boolean\ insert(java.lang.String,\ java.lang.Integer)
+comment2.text=\r\n\ Insert\ an\ instance\ of\ a\ word\ to\ the\ index\r\n\ @param\ \ s\ \ \ \ \ \ \ \ \ \ \ \ the\ string\ of\ the\ word\r\n\ @param\ \ lineNumber\ \ \ the\ line\ number\ of\ where\ the\ word\ was\ in\ the\ input\ file\r\n\ @return\ \ true\ if\ insertion\ was\ successful,\ \r\n\ \ \ \ \ \ \ \ \ \ false\ if\ the\ insertion\ was\ not\ successful\ \r\n\ \ \ \ \ \ \ \ \ \ (the\ word\ is\ not\ in\ the\ English\ dictionary,\ it\ is\ a\ duplicate)\r\n
+comment3.params=
+comment3.target=java.util.Iterator\ iterator()
+comment3.text=\r\n\ Gets\ an\ iterator\ for\ this\ index.\r\n\ @return\ an\ iterator\ for\ this\ index\r\n
+comment4.params=word
+comment4.target=boolean\ searchDictionary(java.lang.String)
+comment4.text=\r\n\ Search\ the\ dictionary\ for\ a\ word\ s\r\n\ @param\ \ word\ \ word\ to\ search\ for\r\n\ @return\ true\ if\ word\ is\ in\ dictionary,\ false\ if\ it\ is\ not\r\n
+comment5.params=e\ pos\ lineNumber
+comment5.target=boolean\ indexInsert(ListIndex.Entry,\ int,\ int)
+comment5.text=\r\n\ Insert\ an\ entry\ into\ the\ index.\r\n\ @param\ \ e\ \ \ \ \ \ \ \ \ \ \ \ Entry\ to\ insert\r\n\ @param\ \ pos\ \ \ \ \ \ \ \ \ \ insertion\ position\ returned\ by\ the\ binarySearch\r\n\ @param\ \ lineNumber\ \ \ the\ line\ number\ of\ the\ string\ in\ Entry\r\n\ @return\ true\ if\ the\ insertion\ was\ successful\r\n\ \ \ \ \ \ \ \ \ false\ if\ the\ entry\ was\ a\ duplicate\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Creates\ a\ string\ representation\ of\ ListIndex\ (for\ unit\ testing\ only)\r\n\ @return\ \ string\ representation\ of\ ListIndex.\ \r\n
+numComments=7
